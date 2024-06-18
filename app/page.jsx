@@ -1,4 +1,4 @@
-// import Hero from "@/components/Hero2";
+
 import Hero from "@/components/Hero3";
 import Caracteristicas from "@/components/Caracteristicas";
 import PreguntasFrecuentes from "@/components/PreguntasFrecuentes";
