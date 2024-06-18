@@ -4,8 +4,7 @@ import Image from "next/image";
 import navLogo from "../public/logo.jpeg";
 import React, { useState, useEffect } from "react";
 import { AiOutlineClose, AiOutlineMenu } from "react-icons/ai";
-import { FaTiktok } from "react-icons/fa";
-import { BsWhatsapp, BsInstagram, BsFacebook} from "react-icons/bs";
+
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);
