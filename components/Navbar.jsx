@@ -7,9 +7,8 @@ import Link from "next/link";
 import Image from "next/image";
 
 const navigation = [
-  { name: "Preguntas frecuentes", href: "/#faqs" },
-  { name: "Galeria", href: "/#galeria" },
   { name: "Servicios", href: "/#caracteristicas" },
+  { name: "Preguntas frecuentes", href: "/#faqs" },
 ];
 
 export default function NavBar() {

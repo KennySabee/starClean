@@ -1,25 +1,22 @@
-import Hero from "@/components/Hero2";
+// import Hero from "@/components/Hero2";
+import Hero from "@/components/Hero3";
 import Caracteristicas from "@/components/Caracteristicas";
 import Productos from "@/components/Productos";
-import Acabados from "@/components/Acabados";
-import Dimensiones from "@/components/Dimensiones";
-import Testimonios from "@/components/Testimonios";
 import PreguntasFrecuentes from "@/components/PreguntasFrecuentes";
 import Footer from "@/components/Footer";
 import BotonWp from "@/components/BotonWP";
+import Store from "@/components/StoreFront";
 
 export default function Home() {
   return (
     <>
       <Hero />
       <Caracteristicas />
-      <Productos />
       <PreguntasFrecuentes />
-      {/* <Acabados /> */}
-      {/* <Dimensiones /> */}
-      {/* <Testimonios /> */}
       <Footer />
       <BotonWp />
+      {/* <Store/> */}
+
     </>
   );
 }

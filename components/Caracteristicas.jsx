@@ -3,24 +3,24 @@ import { CheckIcon } from '@heroicons/react/20/solid'
 const features = [
   {
     name: 'Limpieza en muebles de sala ',
-    description: 'En Itaca, tu mascota merece lo mejor. Nuestras camas para perros premium combinan elegancia y comodidad. ¡Dales el lujo que se merecen!',
+    description: 'Procedimiento de limpieza detallado para mantener los muebles de sala en óptimas condiciones y buen estado.',
   },
-  { name: 'Limpieza en muebles de comedor', description: '100% Calidad Garantizada. Hecho en Ecuador con los mejores materiales. Tu mascota merece lo mejor.' },
+  { name: 'Limpieza en muebles de comedor', description: 'Métodos eficaces para limpiar y mantener en buen estado los muebles del comedor.' },
   {
     name: 'Limpieza de colchones y almohadas',
-    description: 'Descubre la felicidad de las mascotas a través de nuestras reseñas positivas. ¡Únete a la comunidad satisfecha de Itaca!.',
+    description: 'Métodos efectivos para limpiar y desinfectar colchones y almohadas, eliminando manchas y alérgenos.',
   },
   {
     name: 'Limpieza en tapicería y techo de vehículos',
-    description: 'Simplifica tu vida con nuestras camas de madera para perros: llegan ensambladas y listas para que tu amigo peludo descanse de inmediato.',
+    description: 'Técnicas especializadas para limpiar y mantener el techo de vehículos en perfecto estado.',
   },
   {
     name: 'Resultados inmediatos que te dejarán impresionado',
-    description: ' Nuestras camas de madera para perros son fáciles de limpiar, garantizando comodidad e higiene para tu mascota.',
+    description: ' Ofrecemos una promesa de beneficios rápidos y notables que causarán una fuerte impresión en el usuario.',
   },
   {
     name: 'Sin recargo a domicilio.',
-    description: 'Ofrece a tu perro lo mejor: nuestras camas cuentan con cojines de espuma premium y capa de plumón para un descanso lujoso.',
+    description: 'Servicio de entrega a domicilio sin costo adicional para el cliente.',
   },
   
   
@@ -33,17 +33,17 @@ export default function Example() {
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <div className="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 sm:gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-3">
           <div>
-            <h2 className="text-base font-semibold leading-7 text-gray-950">Lo que nos hace únicos</h2>
-            <p className="mt-2 text-3xl text-center sm:text-left font-bold tracking-tight text-gray-900 sm:text-4xl pt-8 sm:pt-0">Eleva el encanto de tu hogar y cuida a tu mejor amigo</p>
-            <p className="mt-6 text-base text-center sm:text-left leading-7 text-gray-600">
+            <h2 className="text-base font-semibold leading-7 text-[#7ac2b5]">Lo que nos hace únicos</h2>
+            <p className="mt-2 text-3xl text-center sm:text-left font-bold tracking-tight text-[#69aa9e] sm:text-4xl pt-8 sm:pt-0">Damos nueva vida a tus muebles o vehículos </p>
+            <p className="mt-6 text-base text-center sm:text-left leading-7 text-[#7ac2b5] ">
            ¡Servicio 100% Garantizado !
             </p>
           </div>
           <dl className="col-span-2 grid grid-cols-1 gap-x-8 gap-y-5 text-base leading-7 text-gray-600 sm:grid-cols-2 lg:gap-y-16">
             {features.map((feature) => (
               <div key={feature.name} className="relative pl-9">
-                <dt className="font-semibold text-gray-900">
-                  <CheckIcon className="absolute left-0 top-1 h-5 w-5 text-gray-950" aria-hidden="true" />
+                <dt className="font-semibold text-[#69aa9e]">
+                  <CheckIcon className="absolute left-0 top-1 h-5 w-5 text-[#69aa9e]" aria-hidden="true" />
                   {feature.name}
                 </dt>
                 <dd className="mt-1">{feature.description}</dd>
