@@ -1,6 +1,3 @@
-import Image from "next/image";
-import Link from "next/link";
-
 export default function Hero() {
     const collections = [
         {
@@ -57,8 +54,9 @@ export default function Hero() {
         <div className="h-48 w-full bg-white" />
       </div>
       <div className="relative py-32">
-        <h1 className="text-4xl font-bold tracking-tight text-white sm:text-5xl md:text-6xl">Star Pro Clean</h1>
-        <div className="mt-4 sm:mt-6">
+        <h1 className="text-4xl font-bold tracking-tight text-[#7ac2b5] sm:text-5xl md:text-6xl">Star Pro Clean</h1>
+        <h3 className="mt-4 sm:mt-8 text-xl font-bold tracking-tight text-white sm:text-2xl md:text-3xl">Confianza en cada servicio,<br></br> calidad en cada detalle</h3>
+        <div className="mt-4 sm:mt-8">
           <a
             href="/#caracteristicas"
             className="inline-block rounded-md border border-transparent bg-[#7ac2b5] px-8 py-3 font-medium text-white hover:bg-[#69aa9e]"
@@ -85,7 +83,7 @@ export default function Hero() {
                   <img
                     src={collection.imageSrc}
                     alt={collection.imageAlt}
-                    className="h-full w-full object-cover object-center"
+                    className="h-full w-full object-center"
                   />
                 </div>
                 <div className="absolute inset-0 bg-gradient-to-b from-transparent to-black opacity-50" />
@@ -93,7 +91,7 @@ export default function Hero() {
               <div className="absolute inset-0 flex items-end rounded-lg p-6">
                 <div>
                   <p aria-hidden="true" className="text-sm text-white">
-                    Limpieza de
+                  Limpieza y desinfección 
                   </p>
                   <h3 className="mt-1 font-semibold text-white">
                     <a href={collection.href}>

@@ -6,35 +6,35 @@ const faqs = [
   {
     question: " ¿Quienes somos?",
     answer:
-      "Somos una empresa con más de 4 años de experiencia en el sector de limpiezas. Nos gusta ser claros y ofrecer toda la información posible para ayudarte en tus decisiones.",
+      "Somos una microempresa quiteña con 4 años de experiencia en el detalle de limpieza en tapicería. Para una mejor atención e información más detallada, ¡Comunícate con nosotros!",
   },{
     question: "¿Cuánto tiempo toma limpiar un sofá a domicilio?",
     answer:
-      "El tiempo de limpieza de un sofá a domicilio puede variar según el tamaño del sofá y el nivel de suciedad. Por lo general, el proceso de limpieza puede tomar entre 1 y 2 horas",
+      "El tiempo depende del nivel de complejidad en la limpieza, el material y el tratamiento que se deba aplicar. Aproximadamente 15 minutos por cada puesto.",
   },{
-    question: "¿Cuánto tiempo toma limpiar un vehiculo sedan a domicilio?",
+    question: "¿Cuánto tiempo toma la limpieza del interior de un vehículo a domicilio?",
     answer:
-      "El tiempo de limpieza de un sofá a domicilio puede variar según el tamaño del vehiuclo y el nivel de suciedad. Por lo general, el proceso de limpieza puede tomar entre 3 y 4 horas",
+      "Realizamos una evaluación previa para especificar el tratamiento y producto a usar, también depende el tamaño del vehículo y la complejidad. Aproximadamente 4 horas sin incluir los detalles en limpieza y humectación de plásticos.",
   },
   {
     question: " ¿Qué productos utilizan para la limpieza?",
     answer:
-      "Utilizamos productos industriales adaptados para cada tipo de limpieza, presentando una reducida agresividad con los materiales. Evitamos utilizar materiales ácidos o abrasivos.",
+      "Estamos pendientes de tu salud y tu comodidad, para todos nuestros servicios utilizamos desengrasantes industriales totalmente biodegradables que evitan alergias o irritaciones en su contacto, de igual manera usamos medidas exactas para un mejor tratamiento de la tapicería.",
   },
   {
     question: "¿Cuál es el procedimiento para contratar un servicio de limpieza?",
     answer:
-      "Tras ponerte en contacto con nosotros, acordamos una visita previa para valorar lo que deseas realizar. En menos de 24 horas, ofrecemos un presupuesto ajustado sin compromiso. Luego, concretamos la fecha y horario para realizar el servicio de limpieza",
+      "Realizamos agendamiento bajo citas con 24 horas de anticipación y a su vez de manera inmediata. Luego, concretamos la fecha y hora para realizar el servicio de limpieza solicitado.",
   },
   {
     question: "¿Cuál es nuestro horario de trabajo?",
     answer:
-      " Nuestro horario se adapta a tus necesidades. Coordinamos equipos de limpieza de mañana y tarde para garantizar la mejor calidad de servicio.",
+      " Nuestro horario se adapta a tus necesidades. Coordinamos con el equipo ya sea temprano por la mañana o tarde para garantizar la mejor calidad de servicio. Trabajamos de lunes a domingo.",
   },
   {
     question: "¿Dónde estamos ubicados?",
     answer:
-      "Estamos disponibles en el valle de los chillos para atenderte en nuestras oficinas. ¡Contáctanos y recupera la frescura de tus muebles! .",
+      "Realizamos el servicio a tu domicilio sin recargo alguno a todo el cantón de Quito. ¡Contáctanos y recupera la vida de tus muebles!",
   },
   
 ]

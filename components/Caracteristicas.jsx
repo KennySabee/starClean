@@ -2,25 +2,25 @@ import { CheckIcon } from '@heroicons/react/20/solid'
 
 const features = [
   {
-    name: 'Limpieza en muebles de sala ',
-    description: 'Procedimiento de limpieza detallado para mantener los muebles de sala en óptimas condiciones y buen estado.',
+    name: 'Limpieza y desinfección en muebles de sala ',
+    description: 'Limpieza y tratamiento detallado a la tapicería de tus muebles de sala dependiendo la complejidad. Realizamos en el mismo sitio, evitando incomodarte en el traslado. Cuidamos tu piso ya sea baldosa, madera o flotante.',
   },
-  { name: 'Limpieza en muebles de comedor', description: 'Métodos eficaces para limpiar y mantener en buen estado los muebles del comedor.' },
+  { name: 'Limpieza y desinfección en muebles de comedor', description: 'Tratamiento detallado enfocado a la tapicería de tus muebles de comedor dependiendo la complejidad. Realizamos en el mismo sitio, evitando incomodarte en el traslado. Cuidamos tu piso ya sea baldosa, madera o flotante.' },
   {
-    name: 'Limpieza de colchones y almohadas',
-    description: 'Métodos efectivos para limpiar y desinfectar colchones y almohadas, eliminando manchas y alérgenos.',
-  },
-  {
-    name: 'Limpieza en tapicería y techo de vehículos',
-    description: 'Técnicas especializadas para limpiar y mantener el techo de vehículos en perfecto estado.',
+    name: 'Limpieza y desinfección en colchones y almohadas',
+    description: 'Tratamiento enfocado a evitar alergias en la piel y respiratorias en la tapicería de tu colchón. Realizamos en el mismo sitio, evitando incomodarte en el traslado. Cuidamos tu piso ya sea baldosa, madera o flotante.',
   },
   {
-    name: 'Resultados inmediatos que te dejarán impresionado',
+    name: 'Limpieza en tapicería de vehículos y autodetailing',
+    description: 'Limpieza y desinfección de techo, asientos, alfombra, moquetas, limpieza y humectación en plásticos de todo el interior de tu vehículo. Realizamos el servicio en tu domicilio totalmente sin recargo.',
+  },
+  {
+    name: 'Resultados inmediatos',
     description: ' Ofrecemos una promesa de beneficios rápidos y notables que causarán una fuerte impresión en el usuario.',
   },
   {
-    name: 'Sin recargo a domicilio.',
-    description: 'Servicio de entrega a domicilio sin costo adicional para el cliente.',
+    name: 'Servicio a domicilio.',
+    description: 'El servicio a tu domicilio no tiene recargo adicional.',
   },
   
   

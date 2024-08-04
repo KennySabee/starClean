@@ -1,7 +1,7 @@
 "use client"
 import Link from "next/link";
 import Image from "next/image";
-import navLogo from "../public/logo.jpeg";
+import navLogo from "../public/logo.png";
 import React, { useState, useEffect } from "react";
 import { AiOutlineClose, AiOutlineMenu } from "react-icons/ai";
 
@@ -45,7 +45,7 @@ const Navbar = () => {
     >
       <div className="flex justify-between items-center w-full h-full px-2 2xl:px-16">
         <Link href="/">
-          <Image src={navLogo} alt="/" width={50} height={50} className="mt-3" />
+          <Image src={navLogo} alt="/" width={50} height={50} className="mt-3 md:w-16 md:h-16" />
         </Link>
 
         <div>
@@ -94,7 +94,7 @@ const Navbar = () => {
             </div>
             <div className="border-b border-gray-300 my-4">
               <p className="w-[85%] md:w-[90%] py-2">
-              ¡Dale nueva vida a tus muebles o vehículos !
+              ¡Devolvemos la vida a tus muebles y a tu vehículo!
               </p>
             </div>
           </div>
