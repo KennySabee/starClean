@@ -7,13 +7,13 @@ const navigation = [
   },
   {
     name: 'Instagram',
-    href: 'https://instagram.com/starclean23?igshid=NTc4MTIwNjQ2YQ==',
+    href: 'https://www.instagram.com/starclean23?igsh=dTI5MmV4Mnhhemlm',
     icon: BsInstagram
     
   },
   {
     name: 'TikTok',
-    href: 'https://www.tiktok.com/@starcleanec?_t=8cG0OCQOwVx&_r=1',
+    href: 'https://www.tiktok.com/@starprocleanec?_t=8obVeQILLKX&_r=1',
     icon: BsTiktok
   },
   

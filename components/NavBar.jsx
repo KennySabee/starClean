@@ -70,7 +70,7 @@ const Navbar = () => {
       {/* Mobile Menu */}
       <div
         className={
-          nav ? "md:hidden fixed left-0 top-0 w-full h-screen bg-black/70" : ""
+          nav ? "md:hidden fixed left-0 top-0 w-full h-screen bg-black/70"  : ""
         }
       >
         <div
@@ -81,13 +81,13 @@ const Navbar = () => {
           }
         >
           <div>
-            <div className="flex w-full  items-center justify-between">
+            <div className="flex w-full  items-center justify-around">
               <Link href="/" onClick={() => setNav(false)}>
                 <Image src={navLogo} alt="/" width={50} height={50} />
               </Link>
               <div
                 onClick={handleNav}
-                className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer"
+                className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer ml-24"
               >
                 <AiOutlineClose />
               </div>
